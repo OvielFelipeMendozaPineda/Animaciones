@@ -1,0 +1,67 @@
+
+@keyframes rise{
+    0%,90%{
+        top: 130px;
+    }
+    91% ,100%{
+        top: -50px;
+    }
+}
+
+@keyframes rain{
+
+    90%{
+        visibility: visible;
+        background-position: 0 -220%;
+    }
+}
+
+
+@keyframes move{
+    0%, 30%{
+        left: 610px;
+    }
+    0%{
+        left: 610px;
+    }
+    50%, 80%{
+        left: 210px;
+        animation-play-state: paused;
+    }
+    100%{
+        left: -200px;
+    }
+}
+
+@keyframes count{
+    25%{
+        visibility: visible;
+        background-position: -60px -150px;
+    }
+    50%{
+        background-position: -60px -80px;
+    }
+    75%{
+        background-position: -60px 0px;
+    }
+    99% , 100%{
+        background-position: -60px 100px;
+        
+    }
+}
+
+@keyframes move{
+    0%, 30%{
+        left: 610px;
+    }
+    0%{
+        left: 610px;
+    }
+    50%, 80%{
+        left: 210px;
+        animation-play-state: paused;
+    }
+    100%{
+        left: -200px;
+    }
+}

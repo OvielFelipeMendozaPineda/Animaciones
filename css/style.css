@@ -1,0 +1,91 @@
+@import url(animation.css);
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    width: 100%;
+    height: 100%;
+}
+
+#anim{
+    width: 600px;
+    background-image: url(../storage/background.jpg);
+    height: 380px;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+#sol{
+    background-image: url(../storage/sun.png);
+    background-repeat:no-repeat ;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    left: 450px;
+    bottom: 150px;
+}
+
+#mensaje{
+    background-image: url(../storage/mensaje.png);
+    background-position: -60px -150px;
+    visibility: hidden;
+    position: relative;
+    width: 150px;
+    height: 100px;
+    left: 250px;
+    top: 130px;
+    animation: count 3s;
+}
+
+#nube {
+    background-image: url(../storage/cloud.png);
+    width: 200px;
+    height: 90px;
+    background-repeat: no-repeat;
+    background-size: auto;
+    position: relative;
+    left: 610px;
+    bottom: 50px;
+    animation: move 10s;
+    transition-duration: 3s;
+
+}
+
+
+
+#lluvia{
+    
+    width: 200px;
+    height: 400px;
+    background-image: url(../storage/rain-background.png);
+    background-position: 0 300%;
+    background-repeat: no-repeat;
+    position: relative;
+    left: 25px;
+    animation: rain 10s;
+    animation-delay: 4s;
+    top: 90px;
+    
+    transition-delay: 3s;
+    transition-duration: 2s;
+    
+}
+
+
+
+
+#flor{
+    background-image: url(../storage/flower.png);
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 130px;
+    position: relative;
+    left: 250px;
+    top: -50px;
+    animation: rise 10s;
+}
+
+
